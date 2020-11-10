@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <title>Sicredi - Batch Launcher</title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="icon" href="images/logo2.png" type="image/icon type">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	    <link rel="stylesheet" href="css/batch-laucher.css">
+	</head>
+<body>
+
+	<div class="menu">
+	    <h1>Sicredi</h1>
+	    <p>Gente que coopera cresce</p>
+	    <img src="images/logo3.png" />
+	</div>
+
+	<nav class="navbar navbar-inverse">
+	    <div class="container-fluid">
+	        <div class="navbar-header">
+	            <a class="navbar-brand" href="#">Sicredi</a>
+	        </div>
+	        <ul class="nav navbar-nav">
+	            <li class="active"><a href="http://localhost:8081">Home</a></li>
+	            <li><a href="http://localhost:8081/accountdata.html" class="nav-link">Contas processadas</a></li>
+	            <li><a href="http://localhost:8081/h2-console" target="_blank" class="nav-link">Banco de Dados</a></li>
+	        </ul>
+	    </div>
+	</nav>
+
+	<div class="container-principal">
+	    <table id="table-account-data" class="table table-hover">
+	        <thead>
+	        <tr>	
+	            <th>Agencia</th>
+	            <th>Conta</th>
+	            <th>Saldo</th>
+	            <th>Status</th>
+	        </tr>
+	        </thead>
+	        <tbody>
+	        <tr>
+	            <td colspan="11" style="text-align: center;">Nenhum registro encontrado!</td>
+	        </tr>
+	        </tbody>
+	    </table>
+	</div>
+        <footer class="rodape">
+            <p><a href="www.linkedin.com/in/john-weslley-martins-dev" target="_blank">LinkedIn</a></p>
+        </footer>
+
+    	<script src="js/core.js"></script>
+    </body>
+</html>
